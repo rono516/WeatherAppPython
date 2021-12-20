@@ -25,7 +25,7 @@ def getWeather(canvas):
     final_info = condition + "\n" + str(temp) + "°C"
     final_data = "\n" + "Maximum Temperature: " + str(max_temp) + "\n" + "Minimum Temperature: " + str(
         min_temp) + "\n" + "Pressure: " + str(pressure) + "\n" + "Humidity: " + str(
-        humidity) + "\n" + "Wind Speed: " + str(wind) + "\n" + "Sunrise: " + sunrise + "Sunset: " + sunset
+        humidity) + "\n" + "Wind Speed: " + str(wind) + "\n" + "Sunrise: " + "\n"+ sunrise + "Sunset: " + sunset
 
     label1.config(text=final_info)
     label2.config(text=final_data)
